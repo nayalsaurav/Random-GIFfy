@@ -8,7 +8,6 @@ const Tag = () => {
 
   const onClickHandler = () => {
     fetchData(tag);
-    console.log("Button clicked");
   };
 
   function onChangeHandler(event) {

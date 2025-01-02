@@ -8,7 +8,6 @@ const Random = () => {
     const {gif,loader,fetchData} = useGif();
     const onClickHandler = () => {
         fetchData();
-        console.log("Button clicked");
     };
     return (
       <div className="flex flex-col items-center justify-between border-2 border-gray-200 p-4 shadow-md shadow-white min-w-[200px] md:min-h-[400px] md:min-w-[400px] gap-3 rounded-xl">
